@@ -1,0 +1,194 @@
+2017-07-06 10:14:03,303  INFO DemoApplication:48 - Starting DemoApplication on jiazhijie5229 with PID 20972 (E:\ideaworkspace\demo\target\classes started by jiazhijie in E:\ideaworkspace\demo)
+2017-07-06 10:14:03,305  INFO DemoApplication:637 - No active profile set, falling back to default profiles: default
+2017-07-06 10:14:03,811  INFO AnnotationConfigEmbeddedWebApplicationContext:582 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b7639c8: startup date [Thu Jul 06 10:14:03 CST 2017]; root of context hierarchy
+2017-07-06 10:14:03,897  INFO Version:30 - HV000001: Hibernate Validator 5.3.5.Final
+2017-07-06 10:14:07,509  INFO DefaultListableBeanFactory:828 - Overriding bean definition for bean 'managementServletContext' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcHypermediaManagementContextConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration; factoryMethodName=managementServletContext; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/actuate/autoconfigure/EndpointWebMvcAutoConfiguration.class]]
+2017-07-06 10:14:07,598  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-07-06 10:14:07,685  INFO RepositoryConfigurationDelegate:165 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2017-07-06 10:14:08,862  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$d765f3d2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:09,064  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10fa35a4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:09,461  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'shiroConfiguration' of type [com.example.demo.security.ShiroConfiguration$$EnhancerBySpringCGLIB$$59644782] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:13,976  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,011  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'demoApplication' of type [com.example.demo.DemoApplication] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,032  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration' of type [org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$ebbe44db] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,044  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Tomcat] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,093  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,305  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'dataSource' of type [org.apache.tomcat.jdbc.pool.DataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,373  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$f2edd904] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,398  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'dataSourceInitializer' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,410  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'inMemoryDatabaseShutdownExecutor' of type [org.springframework.boot.devtools.autoconfigure.DevToolsDataSourceAutoConfiguration$NonEmbeddedInMemoryDatabaseShutdownExecutor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,428  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'spring.jpa-org.springframework.boot.autoconfigure.orm.jpa.JpaProperties' of type [org.springframework.boot.autoconfigure.orm.jpa.JpaProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,444  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration' of type [org.springframework.boot.autoconfigure.transaction.TransactionAutoConfiguration$$EnhancerBySpringCGLIB$$a56e30ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,463  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'spring.transaction-org.springframework.boot.autoconfigure.transaction.TransactionProperties' of type [org.springframework.boot.autoconfigure.transaction.TransactionProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,473  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'platformTransactionManagerCustomizers' of type [org.springframework.boot.autoconfigure.transaction.TransactionManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,493  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration' of type [org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$7a8099c4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,612  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'jpaVendorAdapter' of type [org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,636  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'entityManagerFactoryBuilder' of type [org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:14,775  INFO LocalContainerEntityManagerFactoryBean:349 - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-07-06 10:14:14,814  INFO LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-07-06 10:14:14,957  INFO Version:37 - HHH000412: Hibernate Core {5.0.12.Final}
+2017-07-06 10:14:14,958  INFO Environment:213 - HHH000206: hibernate.properties not found
+2017-07-06 10:14:14,960  INFO Environment:317 - HHH000021: Bytecode provider name : javassist
+2017-07-06 10:14:15,017  INFO Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-07-06 10:14:15,450  INFO Dialect:156 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-07-06 10:14:16,100  INFO SchemaUpdate:105 - HHH000228: Running hbm2ddl schema update
+2017-07-06 10:14:16,347  INFO LocalContainerEntityManagerFactoryBean:379 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-07-06 10:14:16,352  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'entityManagerFactory' of type [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,372  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'entityManagerFactory' of type [com.sun.proxy.$Proxy97] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,395  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'sessionFactory' of type [org.springframework.orm.jpa.vendor.HibernateJpaSessionFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,401  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'sessionFactory' of type [org.hibernate.internal.SessionFactoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,436  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'userRepositoryImpl' of type [com.example.demo.Domain.UserRepositoryImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,485  INFO AuthorizingRealm:248 - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2017-07-06 10:14:16,485  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'myShiroRealm' of type [com.example.demo.security.ShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,510  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,570  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,582  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'redisCacheConfig' of type [com.example.demo.config.RedisCacheConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,588  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$5a0c6bc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:16,712  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:325 - Bean 'org.springframework.statemachine.config.configuration.StateMachineAnnotationPostProcessorConfiguration' of type [org.springframework.statemachine.config.configuration.StateMachineAnnotationPostProcessorConfiguration$$EnhancerBySpringCGLIB$$6c8e4ba5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2017-07-06 10:14:17,580  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8080 (http)
+2017-07-06 10:14:18,565  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 14757 ms
+2017-07-06 10:14:19,162  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+2017-07-06 10:14:19,170  INFO FilterRegistrationBean:258 - Mapping filter: 'metricsFilter' to: [/*]
+2017-07-06 10:14:19,170  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-07-06 10:14:19,171  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-07-06 10:14:19,171  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-07-06 10:14:19,172  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+2017-07-06 10:14:19,172  INFO FilterRegistrationBean:258 - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-07-06 10:14:19,172  INFO FilterRegistrationBean:258 - Mapping filter: 'shirFilter' to: [/*]
+2017-07-06 10:14:19,173  INFO FilterRegistrationBean:258 - Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-07-06 10:14:21,327  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b7639c8: startup date [Thu Jul 06 10:14:03 CST 2017]; root of context hierarchy
+2017-07-06 10:14:21,335  INFO RequestMappingHandlerAdapter:566 - Detected ResponseBodyAdvice bean in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2017-07-06 10:14:21,467  INFO RequestMappingHandlerMapping:543 - Mapped "{[/index]}" onto public org.springframework.web.servlet.ModelAndView com.example.demo.Controller.HelloController.index()
+2017-07-06 10:14:21,468  INFO RequestMappingHandlerMapping:543 - Mapped "{[/json]}" onto public java.lang.String com.example.demo.Controller.HelloController.json() throws com.example.demo.exception.MyException
+2017-07-06 10:14:21,468  INFO RequestMappingHandlerMapping:543 - Mapped "{[/send]}" onto public java.lang.String com.example.demo.Controller.HelloController.send()
+2017-07-06 10:14:21,468  INFO RequestMappingHandlerMapping:543 - Mapped "{[/hello]}" onto public java.lang.String com.example.demo.Controller.HelloController.hello()
+2017-07-06 10:14:21,469  INFO RequestMappingHandlerMapping:543 - Mapped "{[/]}" onto public java.lang.String com.example.demo.Controller.LoginController.index()
+2017-07-06 10:14:21,469  INFO RequestMappingHandlerMapping:543 - Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.example.demo.Controller.LoginController.login(java.lang.String,java.lang.String,boolean)
+2017-07-06 10:14:21,469  INFO RequestMappingHandlerMapping:543 - Mapped "{[/login]}" onto public java.lang.String com.example.demo.Controller.LoginController.login(org.springframework.ui.ModelMap)
+2017-07-06 10:14:21,470  INFO RequestMappingHandlerMapping:543 - Mapped "{[/user/hello]}" onto public java.lang.String com.example.demo.Controller.UserController.hello()
+2017-07-06 10:14:21,472  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-07-06 10:14:21,473  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-07-06 10:14:21,645  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-06 10:14:21,645  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-06 10:14:21,708  INFO ExceptionHandlerExceptionResolver:273 - Detected @ExceptionHandler methods in globalExceptionHandler
+2017-07-06 10:14:21,709  INFO ExceptionHandlerExceptionResolver:279 - Detected ResponseBodyAdvice implementation in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcHypermediaManagementContextConfiguration$ActuatorEndpointLinksAdvice
+2017-07-06 10:14:21,775  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-07-06 10:14:23,584  INFO EndpointHandlerMapping:543 - Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,592  INFO EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-07-06 10:14:23,593  INFO EndpointHandlerMapping:543 - Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-07-06 10:14:23,594  INFO EndpointHandlerMapping:543 - Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,596  INFO EndpointHandlerMapping:543 - Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,599  INFO EndpointHandlerMapping:543 - Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-07-06 10:14:23,602  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-07-06 10:14:23,603  INFO EndpointHandlerMapping:543 - Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,610  INFO EndpointHandlerMapping:543 - Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,616  INFO EndpointHandlerMapping:543 - Mapped "{[/servertime || /servertime.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,627  INFO EndpointHandlerMapping:543 - Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-07-06 10:14:23,629  INFO EndpointHandlerMapping:543 - Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,632  INFO EndpointHandlerMapping:543 - Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,640  INFO EndpointHandlerMapping:543 - Mapped "{[/shutdown || /shutdown.json],methods=[POST],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.ShutdownMvcEndpoint.invoke()
+2017-07-06 10:14:23,646  INFO EndpointHandlerMapping:543 - Mapped "{[/actuator || /actuator.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.hateoas.ResourceSupport org.springframework.boot.actuate.endpoint.mvc.HalJsonMvcEndpoint.links()
+2017-07-06 10:14:23,648  INFO EndpointHandlerMapping:543 - Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,650  INFO EndpointHandlerMapping:543 - Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-07-06 10:14:23,655  INFO EndpointHandlerMapping:543 - Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-07-06 10:14:23,656  INFO EndpointHandlerMapping:543 - Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:23,659  INFO EndpointHandlerMapping:543 - Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-07-06 10:14:24,302  INFO OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2017-07-06 10:14:24,404  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-07-06 10:14:24,413  INFO AnnotationMBeanExporter:916 - Bean with name 'rabbitConnectionFactory' has been autodetected for JMX exposure
+2017-07-06 10:14:24,416  INFO AnnotationMBeanExporter:678 - Located managed bean 'rabbitConnectionFactory': registering with JMX server as MBean [org.springframework.amqp.rabbit.connection:name=rabbitConnectionFactory,type=CachingConnectionFactory]
+2017-07-06 10:14:24,459  INFO EndpointMBeanExporter:431 - Registering beans for JMX exposure on startup
+2017-07-06 10:14:24,473  INFO DefaultLifecycleProcessor:343 - Starting beans in phase -2147482648
+2017-07-06 10:14:24,474  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 0
+2017-07-06 10:14:24,475  INFO EndpointMBeanExporter:678 - Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+2017-07-06 10:14:24,484  INFO EndpointMBeanExporter:678 - Located managed bean 'servertime': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=servertime]
+2017-07-06 10:14:24,492  INFO EndpointMBeanExporter:678 - Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+2017-07-06 10:14:24,497  INFO EndpointMBeanExporter:678 - Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+2017-07-06 10:14:24,500  INFO EndpointMBeanExporter:678 - Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+2017-07-06 10:14:24,502  INFO EndpointMBeanExporter:678 - Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+2017-07-06 10:14:24,505  INFO EndpointMBeanExporter:678 - Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+2017-07-06 10:14:24,508  INFO EndpointMBeanExporter:678 - Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+2017-07-06 10:14:24,514  INFO EndpointMBeanExporter:678 - Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+2017-07-06 10:14:24,516  INFO EndpointMBeanExporter:678 - Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+2017-07-06 10:14:24,519  INFO EndpointMBeanExporter:678 - Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+2017-07-06 10:14:24,522  INFO EndpointMBeanExporter:678 - Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+2017-07-06 10:14:24,524  INFO EndpointMBeanExporter:678 - Located managed bean 'shutdownEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=shutdownEndpoint]
+2017-07-06 10:14:24,529  INFO EndpointMBeanExporter:678 - Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+2017-07-06 10:14:24,532  INFO DefaultLifecycleProcessor:343 - Starting beans in phase 2147483647
+2017-07-06 10:14:25,325  INFO CachingConnectionFactory:359 - Created new connection: SimpleConnection@6635689e [delegate=amqp://jz@127.0.0.1:5672/, localPort= 52762]
+2017-07-06 10:14:25,920  INFO TomcatEmbeddedServletContainer:198 - Tomcat started on port(s): 8080 (http)
+2017-07-06 10:14:25,950  INFO DemoApplication:57 - Started DemoApplication in 23.504 seconds (JVM running for 24.876)
+2017-07-06 10:15:03,191  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+2017-07-06 10:15:03,215  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 24 ms
+2017-07-06 10:15:03,418  INFO WebLogAspect:43 - URL : http://localhost:8080/login;jsessionid=035BCA8F83017376991B1D8A70BDE988
+2017-07-06 10:15:03,418  INFO WebLogAspect:44 - HTTP_METHOD : GET
+2017-07-06 10:15:03,418  INFO WebLogAspect:45 - IP : 0:0:0:0:0:0:0:1
+2017-07-06 10:15:03,420  INFO WebLogAspect:46 - CLASS_METHOD : com.example.demo.Controller.LoginController.login
+2017-07-06 10:15:03,420  INFO WebLogAspect:47 - ARGS : [{}]
+2017-07-06 10:15:03,426  INFO WebLogAspect:54 - RESPONSE : login
+2017-07-06 10:15:03,427  INFO WebLogAspect:55 - SPEND TIME : 10
+2017-07-06 10:15:03,451  INFO TemplateEngine:825 - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2017-07-06 10:15:03,527  INFO AbstractTemplateResolver:99 - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2017-07-06 10:15:03,528  INFO AbstractTemplateResolver:110 - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2017-07-06 10:15:03,528  INFO AbstractMessageResolver:72 - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2017-07-06 10:15:03,528  INFO AbstractMessageResolver:78 - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2017-07-06 10:15:03,536  INFO CONFIG:123 - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 3]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 3]: at.pollux.thymeleaf.shiro.dialect.ShiroDialect
+[THYMELEAF]     * Prefix: "shiro"
+[THYMELEAF] * Dialect [3 of 3]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2017-07-06 10:15:03,536  INFO TemplateEngine:838 - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2017-07-06 10:15:36,932  INFO ShiroRealm:53 - doGetAuthenticationInfo +org.apache.shiro.authc.UsernamePasswordToken - jz, rememberMe=false (0:0:0:0:0:0:0:1)
+2017-07-06 10:15:36,933  INFO ShiroRealm:60 - jz:[C@347dbdc6
+2017-07-06 10:15:36,945  INFO UserRepositoryImpl:35 - ceshidata
+2017-07-06 10:15:37,343  INFO WebLogAspect:43 - URL : http://localhost:8080/login
+2017-07-06 10:15:37,344  INFO WebLogAspect:44 - HTTP_METHOD : POST
+2017-07-06 10:15:37,344  INFO WebLogAspect:45 - IP : 0:0:0:0:0:0:0:1
+2017-07-06 10:15:37,344  INFO WebLogAspect:46 - CLASS_METHOD : com.example.demo.Controller.LoginController.login
+2017-07-06 10:15:37,345  INFO WebLogAspect:47 - ARGS : [jz, 1, false]
+2017-07-06 10:15:37,345  INFO LoginController:33 - ==========jz1false
+2017-07-06 10:15:37,345  INFO ShiroRealm:53 - doGetAuthenticationInfo +org.apache.shiro.authc.UsernamePasswordToken - jz, rememberMe=false
+2017-07-06 10:15:37,345  INFO ShiroRealm:60 - jz:[C@29c4940
+2017-07-06 10:15:37,346  INFO UserRepositoryImpl:35 - ceshidata
+2017-07-06 10:15:37,350  INFO WebLogAspect:54 - RESPONSE : {"Msg":"您的账号或密码输入错误","state":"failed"}
+2017-07-06 10:15:37,351  INFO WebLogAspect:55 - SPEND TIME : 8
+2017-07-06 10:15:51,711  INFO WebLogAspect:43 - URL : http://localhost:8080/login
+2017-07-06 10:15:51,712  INFO WebLogAspect:44 - HTTP_METHOD : GET
+2017-07-06 10:15:51,713  INFO WebLogAspect:45 - IP : 0:0:0:0:0:0:0:1
+2017-07-06 10:15:51,713  INFO WebLogAspect:46 - CLASS_METHOD : com.example.demo.Controller.LoginController.login
+2017-07-06 10:15:51,713  INFO WebLogAspect:47 - ARGS : [{}]
+2017-07-06 10:15:51,713  INFO WebLogAspect:54 - RESPONSE : login
+2017-07-06 10:15:51,714  INFO WebLogAspect:55 - SPEND TIME : 3
+2017-07-06 10:15:57,123  INFO ShiroRealm:53 - doGetAuthenticationInfo +org.apache.shiro.authc.UsernamePasswordToken - u, rememberMe=false (0:0:0:0:0:0:0:1)
+2017-07-06 10:15:57,124  INFO ShiroRealm:60 - u:[C@5f56c0d2
+2017-07-06 10:15:57,125  INFO UserRepositoryImpl:35 - ceshidata
+2017-07-06 10:15:57,343  INFO UserRepositoryImpl:45 - id:2
+username:u
+age40
+2017-07-06 10:15:57,386  INFO WebLogAspect:43 - URL : http://localhost:8080/user/hello
+2017-07-06 10:15:57,386  INFO WebLogAspect:44 - HTTP_METHOD : GET
+2017-07-06 10:15:57,386  INFO WebLogAspect:45 - IP : 0:0:0:0:0:0:0:1
+2017-07-06 10:15:57,387  INFO WebLogAspect:46 - CLASS_METHOD : com.example.demo.Controller.UserController.hello
+2017-07-06 10:15:57,387  INFO WebLogAspect:47 - ARGS : []
+2017-07-06 10:15:57,393  INFO WebLogAspect:54 - RESPONSE : hello world!
+2017-07-06 10:15:57,393  INFO WebLogAspect:55 - SPEND TIME : 7
+2017-07-06 10:16:16,154  INFO AnnotationConfigEmbeddedWebApplicationContext:987 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2b7639c8: startup date [Thu Jul 06 10:14:03 CST 2017]; root of context hierarchy
+2017-07-06 10:16:16,158  INFO DefaultLifecycleProcessor:358 - Stopping beans in phase 2147483647
+2017-07-06 10:16:16,263  INFO SimpleMessageListenerContainer:878 - Waiting for workers to finish.
